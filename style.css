@@ -319,5 +319,13 @@ nav.fa{
 .footer .footer-col .social-links a:hover {
     color: #ccc;
 }
-
+body::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+body::-webkit-scrollbar-thumb {
+    background: #888;
+}
+body::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
 

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="rm.css">
+    <title>INNOVATIOM SWAP SHOP</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+
+<body>
+    <section class="header">
+        <div>
+            <nav>
+                <a href="index.html"><img src="images/logo1.png"> </a>
+                <div class="nav-links" id="navlinks">
+                    <div class="menuclose" onclick="hidemenu()"> <i class="fa fa-times"></i></div>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="rm.html">RESOURCE MARKET</a></li>
+                        <li><a href="ie.html">IDEA EXCHANGE</a></li>
+                        <li><a href="cu.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <div class="menubar" onclick="showmenu()"><i class="fa fa-bars"></i></div>
+            </nav>
+            <div class="text-box">
+                <h1> Welcome to Resource Market</h1>
+                <P>In the marketplace of resources, every ounce of creativity is a currency worth trading.</P>
+            </div>
+            </div>
+           </section> 
+           <header>
+           <h2>Entrepreneurial Insights: Empowering Minds Through Educational Articles</h2>
+       </header>
+       <div class="content">
+        <p>Picture this: you publish your business ideas, and within moments, they receive likes, comments, and valuable feedback from our community of fellow innovators. Here, collaboration thrives, connections deepen, and innovation knows no bounds. Join us in harnessing the power of collective creativity and turning your entrepreneurial visions into reality."</p>
+            </div>
+        <div class="container">
+                <div class="column">
+                    <img src="images/article 1.png" alt="Article 1">
+                </div>
+                <div class="column">
+                    <img src="images/article 2.png" alt="Article 2">
+                </div>
+                <div class="column">
+                    <img src="images/article 3.png" alt="Article 3">
+                </div>
+            </div>
+           <span class="container1"> <button class="btn">LOAD MORE</button></span>
+           <script>
+            function showmenu() {
+            var navlinks = document.getElementById("navlinks");
+            if (navlinks) {
+                navlinks.style.right = "0";
+            }
+        }
+    
+        function hidemenu() {
+            var navlinks = document.getElementById("navlinks");
+            if (navlinks) {
+                navlinks.style.right = "-250px";
+            }
+        }
+    </script>
+            <footer class="footer">
+                <div class="container">
+                  <div class="row">
+                    <div class="footer-col">
+                      <h4>LINKS</h4>
+                      <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="rm.html">Blog</a></li>
+                        <li><a href="ie.html">Idea Exchange</a></li>
+                      </ul>
+                    </div>
+                    <div class="footer-col">
+                      <h4>Contact Us</h4>
+                      <div>Email: <a href="mailto:info@example.com">info@example.com</a></div>
+                      <div>Phone: <a href="tel:+11234567890"> 7262029467</a></div>
+                    </div>
+                    <div class="footer-col">
+                      <h4>Follow Us</h4>
+                      <div class="social-links">
+                        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </footer>
+              </body>
+              </html>
